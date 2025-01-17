@@ -32,6 +32,7 @@
 		93DC616C2D34B48B0033CC5E /* ValidateFeedCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC616B2D34B48B0033CC5E /* ValidateFeedCacheUseCaseTests.swift */; };
 		93DC616E2D34DE0F0033CC5E /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC616D2D34DE0F0033CC5E /* FeedCachePolicy.swift */; };
 		93DC61702D3634B80033CC5E /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC616F2D3634B80033CC5E /* CodableFeedStoreTests.swift */; };
+		93DC61722D3B01CA0033CC5E /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DC61712D3B01CA0033CC5E /* CodableFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		93DC616B2D34B48B0033CC5E /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		93DC616D2D34DE0F0033CC5E /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		93DC616F2D3634B80033CC5E /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
+		93DC61712D3B01CA0033CC5E /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				93DC614A2D23565E0033CC5E /* LocalFeedLoader.swift */,
 				93DC614E2D239EE80033CC5E /* LocalFeedItem.swift */,
 				93DC616D2D34DE0F0033CC5E /* FeedCachePolicy.swift */,
+				93DC61712D3B01CA0033CC5E /* CodableFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				93DC614F2D239EE80033CC5E /* LocalFeedItem.swift in Sources */,
 				080EDF0C21B6DAE800813479 /* FeedImage.swift in Sources */,
 				93DC61492D2356330033CC5E /* FeedStore.swift in Sources */,
+				93DC61722D3B01CA0033CC5E /* CodableFeedStore.swift in Sources */,
 				9368D8B52D0E92F3006FB847 /* FeedItemsMapper.swift in Sources */,
 				93DC614B2D23565E0033CC5E /* LocalFeedLoader.swift in Sources */,
 				930FD73D2D165F5A004E5815 /* URLSessionHTTPClient.swift in Sources */,
